@@ -1,0 +1,35 @@
+.menu-nav{ 
+    width: 75%;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+    display: flex;
+    padding-left: 30px;
+}
+
+.area-item{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+a{
+    color: #FFF;
+}
+
+a:hover{
+    color: var(--base-color)
+}
+
+.icone{
+   font-size: 20px;
+   color: var(--base-color)
+}
+
+.item{
+    margin-right: 18px;
+}

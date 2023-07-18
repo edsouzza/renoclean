@@ -1,0 +1,7 @@
+.header{
+    width: 100vw;
+    height: 105px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
