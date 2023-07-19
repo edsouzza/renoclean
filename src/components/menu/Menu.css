@@ -6,15 +6,15 @@
     font-size: 0.9rem;
     font-weight: 300;
     display: flex;
-    padding-left: 30px;
+    padding-left: 25px;  
+    letter-spacing: 3px; 
+    /* background-color: rgb(109, 9, 9); */
+    
 }
 
 .area-item{
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-    margin-right: 10px;
+    padding: 10px 20px;
 }
 
 a{
@@ -26,10 +26,11 @@ a:hover{
 }
 
 .icone{
-   font-size: 20px;
+   font-size: 18px;
+   margin-right: 8px;
    color: var(--base-color)
 }
 
 .item{
-    margin-right: 18px;
+    margin-right: 15px;
 }

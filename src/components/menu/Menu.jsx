@@ -7,26 +7,13 @@ export default function Menu(){
         <div className="menu-nav">
             <ul className='area-item'>
 
-                <FaHouse className='icone'/> 
-                <a href="/"><li className='item'>Home</li></a>
-
-                <FaUserGroup className='icone'/> 
-                <a href="/"><li className='item'>Empresa</li></a>
-
-                <FaCouch className='icone'/> 
-                <a href="/"><li className='item'>Serviços</li></a>
-
-                <FaCamera className='icone'/> 
-                <a href="/"><li className='item'>Fotos</li></a>
-
-                <FaVideo className='icone'/> 
-                <a href="/"><li className='item'>Vídeos</li></a>
-
-                <FaEnvelopeCircleCheck className='icone'/> 
-                <a href="/"><li className='item'>Contato</li></a>
-
-                <FaFileLines className='icone'/> 
-                <a href="/"><li className='item'>Política Privacidade</li></a>
+                <a href="/"><li className='item'><FaHouse className='icone'/>Home</li></a>                
+                <a href="/"><li className='item'><FaUserGroup className='icone'/>Empresa</li></a>                
+                <a href="/"><li className='item'><FaCouch className='icone'/>Serviços</li></a>                
+                <a href="/"><li className='item'><FaCamera className='icone'/>Fotos</li></a>                
+                <a href="/"><li className='item'><FaVideo className='icone'/>Vídeos</li></a>                
+                <a href="/"><li className='item'><FaEnvelopeCircleCheck className='icone'/>Contato</li></a>                
+                <a href="/"><li className='item'><FaFileLines className='icone'/>Política Privacidade</li></a>
 
             </ul>
         </div>
