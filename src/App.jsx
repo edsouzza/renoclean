@@ -1,11 +1,13 @@
-import './styles/globals.css'
-import Header from './components/header/Header'
+import Header from "./components/header/Header"
+import Home from "./components/home/Home"
 
 function App() {
-  
-  return (
+
+  return(
     <>
-      <Header />
+      <Home>         
+        <Header />
+      </Home>
     </>
   )
 }

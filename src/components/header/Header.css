@@ -1,8 +1,26 @@
-.header{
-    width: 100vw;
-    height: 105px;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    /* background-color: rgb(168, 168, 168); */
+.navbar-nav{         
+    display: flex;    
+    justify-content:end;
+    width: 100%;
+    background-color: brown;
+} 
+.collapse{
+    width: 100%;
+}
+.nav-item{
+    font-size: 1rem;
+}
+.icone{    
+    margin-top: -5px; 
+    padding-right: 8px;
+    font-size: 20px;
+}
+.nav-link{
+    margin-left: 5px; 
+}
+.navbar-toggler-icon{
+    font-size: 13px;
+}
+.navbar{
+    z-index: 9999;
 }
