@@ -24,20 +24,24 @@
     align-items: center;
     justify-content: center; 
     padding: 80px 130px; 
-    color: #FFF;    
+    
 }
 .textos h1{
     font-size: 80px;
-    font-weight: 500;
-    letter-spacing: 0.1rem;
+    font-weight: 600;
     margin-bottom: 20px;
+    color: #33CCFF;
 }
 .textos h2{
     font-size: 30px;   
     margin-bottom: 20px;
+    color: #FFF;
+}
+.textos p{
+    color: #FFF;
 }
 .home .textos .botoes .btn{
-    padding: 15px 60px;
+    padding: 15px 45px;
     text-transform: uppercase;    
 }
 .home .textos .botoes .btn:first-child{
